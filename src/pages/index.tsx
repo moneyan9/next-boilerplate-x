@@ -1,9 +1,15 @@
-import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button'
 
 const Index = () => (
-    <Button variant="contained" color="primary" onClick={() => { alert('clicked') }}>
-      CLICK ME!
-    </Button>
-  );
+  <Button
+    variant="contained"
+    color="primary"
+    onClick={() => {
+      alert('clicked')
+    }}
+  >
+    CLICK ME!
+  </Button>
+)
 
-export default Index;
+export default Index
