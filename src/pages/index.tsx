@@ -1,4 +1,9 @@
-import { NextPage } from "next";
+import Button from '@material-ui/core/Button';
 
-const Page: NextPage = () => <h1>Hello World!</h1>;
-export default Page;
+const Index = () => (
+    <Button variant="contained" color="primary" onClick={() => { alert('clicked') }}>
+      CLICK ME!
+    </Button>
+  );
+
+export default Index;
